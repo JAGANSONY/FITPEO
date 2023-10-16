@@ -11,7 +11,13 @@ import logo3 from './assets/R.jpeg'
 import logo4 from './assets/fKAgmJ2GPMmJSr9kC7EkTV-1200-80.jpg'
 import logo5 from './assets/gallerysmall_221933.jpg'
 import logo6 from './assets/logo.jpg'
-
+import AutoModeIcon from '@mui/icons-material/AutoMode';
+import ContactsIcon from '@mui/icons-material/Contacts';
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+import MoneyIcon from '@mui/icons-material/Money';
+import HelpCenterIcon from '@mui/icons-material/HelpCenter';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 export const data = [
   {
     name: "Earning",
@@ -63,7 +69,7 @@ export const data = [
 export const details = [
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo,
     stock: "32 in stock",
     price:'$45.99',
@@ -71,7 +77,7 @@ export const details = [
   },
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo1,
     stock: "32 in stock",
     price:'$45.99',
@@ -79,7 +85,7 @@ export const details = [
   },
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo2,
     stock: "32 in stock",
     price:'$45.99',
@@ -87,7 +93,7 @@ export const details = [
   },
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo3,
     stock: "32 in stock",
     price:'$45.99',
@@ -95,7 +101,7 @@ export const details = [
   },
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo4,
     stock: "32 in stock",
     price:'$45.99',
@@ -103,7 +109,7 @@ export const details = [
   },
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo5,
     stock: "32 in stock",
     price:'$45.99',
@@ -111,11 +117,48 @@ export const details = [
   },
   {
     name: "Earning",
-    title: " Lorem ipsum is a placeholder ",
+    title: " Lorem ipsum is a  ",
     img:logo6,
     stock: "32 in stock",
     price:'$45.99',
     totalStates:'20',
+  },
+  
+
+];
+
+export const HeadersItems = [
+  {
+    icon:<AutoModeIcon/> ,
+    name: "Dashoard",
+    img:<ChevronRightIcon/>,
+    
+  },
+  {
+    icon:<LocalAtmIcon/>  ,
+    name: "Product",
+    img:<ChevronRightIcon/>,
+    
+  }, {
+    icon:  <ContactsIcon/>   ,
+    name: "customers",
+    img:<ChevronRightIcon/>,
+    
+  }, {
+    icon: <MoneyIcon/> ,
+    name: "income",
+    img:<ChevronRightIcon/>,
+    
+  }, {
+    icon: <WorkspacePremiumIcon/>  ,
+    name: "promote",
+    img:<ChevronRightIcon/>,
+    
+  }, {
+    icon:<HelpCenterIcon/>   ,
+    name: "Help",
+    img:<ChevronRightIcon/>,
+    
   },
   
 

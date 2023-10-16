@@ -52,10 +52,11 @@ export default function PieChat() {
         ))}
         
          <Label
-            value="jagan" 
+            value="65%" 
+            
             position="center"
             fill="#000"
-            fontSize={14}
+            fontSize={26}
           />
       </Pie>
      

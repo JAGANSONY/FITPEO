@@ -72,7 +72,7 @@ class Details extends Component {
             Product Name
           </Typography>
           <Box>
-            <Box sx={{ display: "flex", alignItems: "center",gap:{xl:12,lg:12,md:12,sm:4,xs:1},marginTop:'10px' }}>
+            <Box sx={{ display: "flex", alignItems: "center",gap:{xl:12,lg:12,md:12,sm:2,xs:1},marginTop:'10px' }}>
               <Typography sx={{
                 
                 color: "lightgrey",
@@ -124,7 +124,7 @@ class Details extends Component {
           </Box>
           </Box>
           <Box>
-            <Box sx={{ display: "flex", alignItems: "center",gap:{xl:13,lg:13,md:13,sm:4,xs:3},marginTop:'10px' }}>
+            <Box sx={{ display: "flex", alignItems: "center",gap:{xl:13,lg:13,md:13,sm:2,xs:3},marginTop:'10px' }}>
               <Typography sx={{
                 
                 color: "lightgrey",

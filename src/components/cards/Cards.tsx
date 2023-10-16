@@ -16,7 +16,7 @@ const Cards = (props: Iprops) => {
               sx={{
                 color: item.color,
                 backgroundColor: item.bgColor,
-                padding: {xl:"30px",md:"30px",sm:"30px",xs:'15px'},
+                padding: {xl:"30px",md:"30px",sm:"18px",xs:'15px'},
                 borderRadius: "50px",
                 display: "flex",
                 flexDirection: "column",
@@ -61,12 +61,12 @@ const inactive={
 
 const active1={
     color:'green',
-    fontSize:{xl:'20px',lg:'10px',md:'20px',sm:'25px'}
+    fontSize:{xl:'20px',lg:'10px',md:'20px',sm:'20px'}
 }
 
 const inactive1={
     color:'red',
-    fontSize:{xl:'20px',lg:'10px',md:'20px',sm:'25px'}
+    fontSize:{xl:'20px',lg:'10px',md:'20px',sm:'20px'}
     
 }
 

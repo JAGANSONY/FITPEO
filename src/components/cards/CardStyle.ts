@@ -15,7 +15,7 @@ import { SxProps, Theme } from "@mui/material";
 
  
        },
-       [theme.breakpoints.only("md")]: {
+       [theme.breakpoints.only("sm")]: {
         fontSize:'15px !important',
         fontWeight:400,
 
@@ -34,7 +34,7 @@ import { SxProps, Theme } from "@mui/material";
  
        },
        [theme.breakpoints.only("sm")]: {
-        fontSize:'20px !important',
+        fontSize:'10px !important',
  
        },
     },
@@ -76,7 +76,7 @@ import { SxProps, Theme } from "@mui/material";
       width:'48% !important'
     },
     [theme.breakpoints.only("sm")]: {
-      width:'49% !important'
+      width:'48% !important'
     },
     [theme.breakpoints.only("xs")]: {
       width:'100% !important'
